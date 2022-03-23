@@ -127,29 +127,27 @@ h2.typography-head {
 /* Links */
 
 .links-wrap {
-	padding: 1.25rem;
 	margin-bottom: 1.25rem;
 	background-color: #5e2129;
-	width: max-content;
-	ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	max-width: max-content;
+	.link {
 		padding: 1rem;
-		margin: 0;
-		display: flex;
-		flex-wrap: wrap;
-		list-style-type: none;
-		li {
-			word-wrap: break-word;
-			a {
+		a {
+			text-decoration: none;
+			&:hover,
+			&:focus,
+			&:active {
 				text-decoration: none;
-				position: relative;
-				&:hover {
-					text-decoration: none;
-				}
 			}
 		}
-		li:not(:last-child) {
-			margin-right: 2.75rem;
-		}
+	}
+}
+
+@media (min-width: 768px) {
+	.links-wrap {
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	}
 }
 
