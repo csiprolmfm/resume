@@ -1,0 +1,76 @@
+// Base fonts
+$default-font: "Roboto", sans-serif;
+$heading-font: "Roboto", sans-serif;
+$numeric-font: "PTSans", sans-serif;
+$code-font: "SourceCodePro", monospace;
+// end Base fonts
+
+/* Attention: $min-width: ____px; be equal $maxWidth: ____; in the file mixins/_adaptive.scss */
+$min-width: 1366px;
+
+// Transition time & animation
+$trans-anime: 0.45s ease-in;
+$trans-anime-short: 0.35s ease-in-out;
+$trans-anime-long: 0.65s ease-in;
+
+// Base color
+
+$dark: #242b3b;
+$dark-light: #3b4761;
+$accent: #f77e3e;
+$accent-light: #eda436;
+$accent-hover: #f55e1c;
+$accent-dark: #ec641c;
+$accent-form: #df5309;
+$costom-color: #f1f8fe;
+$link-base: #0054b9;
+$link-base-hover: #004495;
+$link-base-hover-decoration: #9bb3d0;
+$link-base-hover-underline: #9bb3d0;
+
+// Code background-color & color
+$code-color: #c7254e;
+$code-background: #f9f2f4;
+
+// Customizing Base color
+$blue: #0039a6;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #ffb6c1;
+$red: #f44336;
+$orange: #fd7e14;
+$yellow: #ffeb3b;
+$green: #24c248;
+$teal: #20c997;
+$cyan: cyan;
+$lightengray: #f4f5f9;
+$gray-100: #f8f9fa;
+$gray-200: #e7eaf1;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-base: #808990;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+$blacken: #020202;
+$white: #fff;
+
+// Color Social Network
+$facebook: #2e458b;
+$twitter: #41abe1;
+$pinterest: #be0215;
+$linkedin: #006193;
+$instagram: radial-gradient(47.51% 47.51% at 28.56% 100%, #fddb86 1%, rgba(240, 105, 66, 0) 100%),
+	radial-gradient(74.61% 74.61% at 22.02% 100%, #ffad05 13%, rgba(255, 63, 0, 0) 100%),
+	linear-gradient(159.86deg, #4263df 5.92%, rgba(213, 53, 133, 0) 77.32%), #e11b7e;
+$vk: #5082b9;
+$odnoklassniky: #fa8d09;
+
+// Color or background-color Messenger & Email
+$viber: #7c5aec;
+$whatsapp: #24c248;
+$telegram: #2aa1dd;
+$email: #f8cc57;

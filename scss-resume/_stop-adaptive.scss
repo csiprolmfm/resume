@@ -1,0 +1,35 @@
+@media (min-width: $min-width) {
+	body {
+		font-size: 17px;
+	}
+
+	h1, .h1 {
+		font-size: 36px;
+	}
+	.prehistory {
+		p.h1 {
+			font-size: 30px;
+		}
+	}
+
+	h2, .h2 {
+		font-size: 28px;
+	}
+
+	h3, .h3 {
+		font-size: 21px;
+	}
+
+	h4, .h4 {
+		font-size: 18px;
+	}
+
+	p.descr-heading {
+		font-size: 21px;
+	}
+
+	section {
+		padding-top: 65px;
+		padding-bottom: 70px;
+	}
+}

@@ -9,91 +9,263 @@
 	<meta name="keywords"
 		content="фронтенд, фронтенд разработчик, frontend, frontend developer, html, css, scss, es6 - es10">
 	<title>Фронтенд</title>
+	<link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
+	<header class="header">
+		<h1>Фронтенд разработка</h1>
+	</header>
+	<section class="bg-lightengray">
+		<div class="container">
+			<h2>Общая информация</h2>
+			<p class="text-center">Фронтенд разработчик из Санкт-Петербурга.</p>
 
-	<img src="./img/preview2022.webp" alt="Фронтенд разработка">
-
-	<h1>Фронтенд разработка в Санкт-Петербурге</h1>
-
-	<p>Услуги по фронтенд разработке в Санкт-Петербурге от вебмастера с более чем 6 летним опытом разработки.</p>
-	<img src="./img/my-userpic200x200.webp" alt="вебмастер" width="200" height="200">
-	<p>Постоянное повышение квалификации. Предпочитаю работать в одиночку, но не против поработать с грамотным
-		разработчиком в паре.</p>
-	<p><strong>Основной стек: HTML, CSS, SCSS, ES6 - ES10</strong></p>
-
-	<h2>Мои хобби</h2>
-
-	<ul>
-		<li>Люблю бродить по Питеру и Ленобласти и фотографировать.</li>
-		<li>Люблю пострелять в тире.</li>
-		<li>Люблю "тихую охоту" и рыбалку.</li>
-		<li>Нравится что-нибудь делать своими руками, например, ремонт в квартире</li>
-		<li>Нравится выращивать овощи и ягодные кустраники на даче.</li>
-	</ul>
-
-	<h2>Опыт работы</h2>
-
-	<table>
-		<thead>
-			<th>Название</th>
-			<th>Должность</th>
-			<th>Год</th>
-		</thead>
-		<tbody>
-			<tr>
-				<td>Freelance</td>
-				<td>Copyrighter</td>
-				<td>2012 - 2013</td>
-			</tr>
-			<tr>
-				<td>Freelance</td>
-				<td>Webdesign</td>
-				<td>2013 - 2014</td>
-			</tr>
-			<tr>
-				<td>Freelance</td>
-				<td>Frontend + Wordpress</td>
-				<td>2015 - 2020</td>
-			</tr>
-			<tr>
-				<td>Freelance</td>
-				<td>Frontend + Backend</td>
-				<td>2021 - по н.в.</td>
-			</tr>
-		</tbody>
-	</table>
-
-	<h2>Как со мной связаться?</h2>
-
-	<div class="feedback-links">
-		<a href="https://t.me/purelayout" target="_blank" rel="noopener noreferrer">Telegram</a>
-
-		<a href="mailto:webdev-spb@ya.ru" target="_blank" rel="noopener noreferrer">Email</a>
-	</div>
-	<div class="feedback-form">
-		<form>
-			<div class="element-wrap">
-				<label for="your_name">Ваше имя:</label>
-				<input type="text" id="your_name" placeholder="Введите имя">
+			<div class="img-wrap">
+				<img class="img-userpic" src="./img/my-userpic200x200.webp" alt="вебмастер" width="200" height="200">
 			</div>
-			<div class="element-wrap">
-				<label for="your_email">Ваш email:</label>
-				<input type="email" id="your_email" placeholder="Введите email">
-			</div>
-			<div class="element-wrap">
-				<label for="your_message">Ваше сообщение:</label>
-				<br>
-				<textarea name="" id="your_message"></textarea>
-			</div>
-			<div class="element-wrap">
-				<button type="submit">Отправить</button>
-			</div>
-		</form>
-	</div>
 
+			<p>Постоянное повышение квалификации. Обычно веду разработку в одиночку, но не против поработать с двумя - тремя
+				грамотными
+				разработчиками в одной команде.</p>
+			<p><strong>Основной стек: HTML, CSS, SCSS, ES6 - ES10</strong></p>
+		</div>
+	</section>
 
+	<section class="bg-lightgray">
+		<div class="container">
+			<h2>Мои хобби</h2>
+
+			<ul class="list-hobby">
+				<li>Люблю бродить по Питеру и Ленобласти.</li>
+				<li>Снимаю на смартфон для памяти всё что понравится во время "бродилки".</li>
+				<li>С удовольствием стреляю в тире, когда могу на это выделить время.</li>
+				<li>Как только выпадает время - сразу на "тихую охоту" или рыбалку.</li>
+				<li>Предпочитаю всё делать своими руками, например, ремонт в квартире</li>
+				<li>Нравится выращивать овощи, ягодные кустраники и фруктовые деревья на даче.</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="bg-lightengray">
+		<div class="container">
+			<h2>Опыт работы</h2>
+
+			<table class="table-three-column">
+				<thead>
+					<th>Название</th>
+					<th>Должность</th>
+					<th>Год</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Freelance</td>
+						<td>Copyrighter</td>
+						<td>2012 - 2013</td>
+					</tr>
+					<tr>
+						<td>Freelance</td>
+						<td>Webdesign</td>
+						<td>2013 - 2014</td>
+					</tr>
+					<tr>
+						<td>Freelance</td>
+						<td>Frontend + Wordpress</td>
+						<td>2015 - 2020</td>
+					</tr>
+					<tr>
+						<td>Freelance</td>
+						<td>Frontend + Backend</td>
+						<td>2021 - по н.в.</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<h2>Примеры типографики и hover эффектов</h2>
+
+			<div class="card">
+				<h3>Заголовки</h3>
+				<ul class="lstn list-typography">
+					<li>
+						<h1>H1 - Заголовок 1 уровня</h1>
+					</li>
+					<li>
+						<div class="h1">Псведо заголовок 1 уровня</div>
+					</li>
+					<li>
+						<h2 class="typography-head">H2 - Заголовок 2 уровня</h2>
+					</li>
+					<li>
+						<div class="h2">Псведо заголовок 2 уровня</div>
+					</li>
+					<li>
+						<h3>H3 - Заголовок 3 уровня</h3>
+					</li>
+					<li>
+						<div class="h3">Псведо заголовок 3 уровня</div>
+					</li>
+					<li>
+						<h4>H4 - Заголовок 4 уровня</h4>
+					</li>
+					<li>
+						<div class="h4">Псведо заголовок 4 уровня</div>
+					</li>
+					<li>
+						<h5>H5 - Заголовок 5 уровня</h5>
+					</li>
+					<li>
+						<div class="h5">Псведо заголовок 5 уровня</div>
+					</li>
+					<li>
+						<h6>H6 - Заголовок 6 уровня</h6>
+					</li>
+					<li>
+						<div class="h6">Псведо заголовок 6 уровня</div>
+					</li>
+				</ul>
+			</div>
+
+			<div class="card">
+				<h3>Маркированный список</h3>
+				<ul>
+					<li>Профессиональный дизайн.</li>
+					<li>Чистый код.</li>
+					<li>Высокая скорость загрузки.</li>
+				</ul>
+			</div>
+
+			<div class="card">
+				<h3>Нумерованный список</h3>
+				<ol>
+					<li>Профессиональный дизайн.</li>
+					<li>Чистый код.</li>
+					<li>Высокая скорость загрузки.</li>
+				</ol>
+			</div>
+
+			<div class="card">
+				<h3>Цитата</h3>
+				<blockquote>
+					<div class="bq-content">
+						<p>Мудрость подобна черепаховому супу – не всякому доступна.</p>
+						<p>Зри в корень!</p>
+					</div>
+					<div class="bq-footer">
+						Козьма Прутков
+					</div>
+				</blockquote>
+			</div>
+
+			<div class="card">
+				<h3>Ссылки и кнопки</h3>
+
+				<div class="links-wrap">
+					<ul class="list-wrap">
+						<li class="underscore-simple"><a href="javascript: undefined;">Ссылка</a></li>
+						<li class="underscore-center"><a href="javascript: undefined;">Ссылка</a></li>
+						<li class="underscore-left"><a href="javascript: undefined;">Ссылка</a></li>
+						<li class="underscore-right"><a href="javascript: undefined;">Ссылка</a></li>
+						<li class="underscore-both-sides"><a href="javascript: undefined;">Ссылка</a></li>
+						<li class="underscore-left-right"><a href="javascript: undefined;">Ссылка</a></li>
+					</ul>
+				</div>
+
+				<div class="btns__wrap">
+
+					<button class="btn btn__base-color">Кнопка</button>
+
+					<button class="btn btn__base-gradient btn__running-flare">Кнопка</button>
+
+					<button class="btn btn__any-gradient">Кнопка</button>
+
+					<button class="btn btn__gap-border">
+						Кнопка
+						<span></span>
+					</button>
+				</div>
+			</div>
+
+			<div class="card">
+				<h3>Другие стили</h3>
+
+				<p class="first-letter">Это параграф с увеличенной первой буквой, которая называется "Капельница". Дальше
+					"рыба-текст". Далеко-далеко
+					за словесными,
+					горами в стране
+					гласных и согласных живут рыбные тексты. От всех рукописи силуэт семь ведущими мир. Сих решила одна вершину
+					послушавшись заголовок агентство, оксмокс не, рыбными образ запятых дороге предупреждал напоивший коварный
+					прямо ipsum переписывается заманивший над лучше о продолжил? Ipsum власти предложения, точках повстречался
+					меня запятой, жаренные инициал своих ведущими рыбными текст сбить прямо журчит. Далеко-далеко за словесными,
+					горами в стране гласных и согласных живут рыбные тексты. От всех рукописи силуэт семь ведущими мир.</p>
+
+				<ul class="lstn list-typography">
+					<li>
+						<dl>
+							<dt>Жирный шрифт</dt>
+							<dd><b>Вы нашли меня в Интернете</b></dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>Курсив</dt>
+							<dd><i>Вы нашли меня в Интернете</i></dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>Подчёркнутый</dt>
+							<dd><span class="text-underline">Вы нашли меня в Интернете</span></dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>Зачеркнутый</dt>
+							<dd><span class="text-strike">Вы нашли меня в Интернете</span></dd>
+						</dl>
+					</li>
+					<li>
+						<dl class="list-terms-inline">
+							<dt>Код</dt>
+							<dd><code>$ npm i gulpjs/gulp-cli -g</code></dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-info">
+				<div class="copyright">Webdev-Spb &#169; 2015 -
+					<script type="text/javascript">ty = new Date(); document.write(ty.getFullYear());</script>
+				</div>
+				<div class="feedback-links">
+					<h3>Контакты</h3>
+					<ul class="list-messengers-send">
+						<li class="telegram-send">
+							<a aria-label="Связаться в Telegram" href="https://t.me/purelayout" target="_blank"
+								rel="noopener noreferrer">
+								<img class="icon-send" src="./img/telegram-plane-white.svg" alt="Telegram">
+								<span>Связаться в Telegram</span>
+							</a>
+						</li>
+						<li class="email-send">
+							<a aria-label="Написать на Email" href="mailto:webdev-spb@ya.ru" target="_blank"
+								rel="noopener noreferrer">
+								<img class="icon-send" src="./img/email-icon-white.svg" alt="Email">
+								<span>Написать на Email</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 </body>
 

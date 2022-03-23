@@ -1,0 +1,1000 @@
+@charset "UTF-8";
+
+::placeholder {
+	color: $gray-800;
+}
+
+::selection {
+	background-color: $accent;
+	color: $white;
+}
+
+body {
+	@include adaptiv-font(17, 16);
+	font-weight: 400;
+	min-width: 320px;
+	margin: 0 auto;
+	position: relative;
+	line-height: 1.54;
+	font-family: $default-font;
+	overflow-x: hidden;
+	color: $dark;
+}
+
+@media (min-width: 480px) {
+	body {
+		line-height: 1.6;
+	}
+}
+
+::marker {
+	color: $accent-form;
+}
+
+b,
+strong {
+	font-family: $default-font;
+	font-weight: 500;
+}
+
+.hidden-element {
+	display: none;
+}
+
+p#breadcrumbs {
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
+	a {
+		color: $accent;
+		box-shadow: inset 0 -1px 0 transparent;
+		transition: box-shadow $trans-anime-short;
+		&:hover,
+		&:focus,
+		&:active {
+			box-shadow: inset 0 -1px 0 $accent;
+		}
+	}
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.3;
+	clear: both;
+	font-family: $heading-font;
+	text-transform: uppercase;
+}
+
+section {
+	h2 {
+		text-align: center;
+	}
+	.descr-heading {
+		text-align: center;
+		line-height: 1.2;
+	}
+}
+
+.h2 {
+	color: $accent;
+}
+
+p.h2 {
+	line-height: 1.3;
+	clear: both;
+	font-family: $heading-font;
+	text-transform: uppercase;
+	color: $dark;
+	text-align: center;
+	font-weight: 700;
+}
+
+h1,
+.h1 {
+	@include adaptiv-font(36, 22);
+}
+
+h2,
+.h2 {
+	@include adaptiv-font(28, 19);
+}
+
+h3,
+.h3 {
+	@include adaptiv-font(21, 17);
+}
+
+h4,
+.h4 {
+	font-size: 1.125rem;
+	@include adaptiv-font(18, 15);
+}
+
+h5,
+.h5 {
+	font-size: 1rem;
+}
+
+h6,
+.h6 {
+	font-size: 0.625rem;
+}
+
+.h3 {
+	font-family: $heading-font;
+	font-weight: 300;
+}
+
+p.descr-heading {
+	@include adaptiv-font(21, 18);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+h1 a[href*="http://"]
+{
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+.h1 a[href*="http://"]
+{
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+h2 a[href*="http://"]
+{
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+.h2 a[href*="http://"]
+{
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+h3 a[href*="http://"]
+{
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+.h3 a[href*="http://"]
+{
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+h4 a[href*="http://"]
+{
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+.h4 a[href*="http://"]
+{
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+h5 a[href*="http://"]
+{
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+.h5 a[href*="http://"]
+{
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+h6 a[href*="http://"]
+{
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+.h6 a[href*="http://"]
+{
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+h1 a[href*="https://"]
+{
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+.h1 a[href*="https://"]
+{
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+h2 a[href*="https://"]
+{
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+.h2 a[href*="https://"]
+{
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+h3 a[href*="https://"]
+{
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+.h3 a[href*="https://"]
+{
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+h4 a[href*="https://"]
+{
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+.h4 a[href*="https://"]
+{
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+h5 a[href*="https://"]
+{
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+.h5 a[href*="https://"]
+{
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+h6 a[href*="https://"]
+{
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+.h6 a[href*="https://"]
+{
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		text-decoration: none;
+	}
+}
+
+a[href*="#"],
+a[href*="tel:"],
+a[href*="mailto:"] {
+	color: $link-base;
+	box-shadow: inset 0 -1px 0 transparent;
+	transition: box-shadow $trans-anime-short;
+	&:hover,
+	&:active,
+	&:focus {
+		color: $link-base-hover;
+		box-shadow: inset 0 -1px 0 $link-base-hover-decoration;
+		text-decoration: none;
+		transition: box-shadow $trans-anime-short;
+	}
+}
+
+.nav-wrapper a[href*="tel:"],
+.nav-wrapper a[href*="mailto:"],
+.footer .footer-top a {
+	color: $white;
+	box-shadow: none;
+	transition: color $trans-anime-short;
+	text-decoration: none;
+	&:hover,
+	&:active,
+	&:focus {
+		color: #f8884d;
+		box-shadow: none;
+		transition: color $trans-anime-short;
+	}
+}
+
+.agreement-text a {
+	&[href*="http://auroraconsult"], &[href*="http://csipro-webdev"], &[href*="https://auroraconsult"]
+	{
+		color: $link-base;
+		text-decoration: underline;
+		box-shadow: inset 0 -1px 0 transparent;
+		transition: box-shadow $trans-anime-short, color $trans-anime-short;
+		&:hover,
+		&:focus,
+		&:active {
+			color: $link-base-hover;
+			box-shadow: inset 0 -1px 0 $link-base-hover-decoration;
+			text-decoration: none;
+			transition: box-shadow $trans-anime-short, color $trans-anime-short;
+		}
+	}
+}
+
+.privacy-policy-text a {
+	&[href*="http://auroraconsult"], &[href*="http://csipro-webdev"], &[href*="https://auroraconsult"]
+	{
+		color: $link-base;
+		text-decoration: underline;
+		box-shadow: inset 0 -1px 0 transparent;
+		transition: box-shadow $trans-anime-short, color $trans-anime-short;
+		&:hover,
+		&:focus,
+		&:active {
+			color: $link-base-hover;
+			box-shadow: inset 0 -1px 0 $link-base-hover-decoration;
+			text-decoration: none;
+			transition: box-shadow $trans-anime-short, color $trans-anime-short;
+		}
+	}
+}
+
+.single-post .site .site-content .container .row .site-main .post .entry-container .entry-content a {
+	&[href*="http://auroraconsult"], &[href*="http://csipro-webdev"], &[href*="https://auroraconsult"]
+	{
+		color: $link-base;
+		text-decoration: underline;
+		box-shadow: inset 0 -1px 0 transparent;
+		transition: box-shadow $trans-anime-short, color $trans-anime-short;
+		&:hover,
+		&:focus,
+		&:active {
+			color: $link-base-hover;
+			box-shadow: inset 0 -1px 0 $link-base-hover-decoration;
+			text-decoration: none;
+			transition: box-shadow $trans-anime-short, color $trans-anime-short;
+		}
+	}
+}
+
+.scr-anchor a {
+	color: $link-base;
+	text-decoration: none;
+	box-shadow: inset 0 -1px 0 transparent;
+	transition: box-shadow $trans-anime-short, color $trans-anime-short;
+	&:hover,
+	&:focus,
+	&:active {
+		color: $accent;
+		box-shadow: inset 0 -1px 0 #faac83;
+		transition: box-shadow $trans-anime-short, color $trans-anime-short;
+	}
+}
+
+a {
+	&.add-link {
+		color: $link-base;
+		text-decoration: none;
+		box-shadow: inset 0 -1px 0 transparent;
+		transition: box-shadow $trans-anime-short, color $trans-anime-short;
+		&:hover,
+		&:focus,
+		&:active {
+			color: $accent;
+			box-shadow: inset 0 -1px 0 #faac83;
+			transition: box-shadow $trans-anime-short, color $trans-anime-short;
+		}
+	}
+
+	&[href*="http://"], &[href*="https://"]
+	{
+		color: $link-base;
+		text-decoration: none;
+		box-shadow: inset 0 -1px 0 transparent;
+		transition: box-shadow $trans-anime-short, color $trans-anime-short;
+		&:hover,
+		&:focus,
+		&:active {
+			color: $link-base-hover;
+			box-shadow: inset 0 -1px 0 $link-base-hover-decoration;
+			text-decoration: none;
+			transition: box-shadow $trans-anime-short, color $trans-anime-short;
+		}
+	}
+
+	&[href*="http://auroraconsult"], &[href*="http://csipro-webdev"], &[href*="https://auroraconsult"]
+	{
+		color: $link-base;
+		text-decoration: none;
+		transition: color $trans-anime-short;
+		&:hover,
+		&:active,
+		&:focus {
+			color: $link-base-hover;
+			text-decoration: none;
+			box-shadow: none;
+			transition: color $trans-anime-short;
+		}
+	}
+}
+
+.container {
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (min-width: 576px) {
+	.container {
+		max-width: 516px;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		max-width: 708px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		max-width: 932px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.container {
+		max-width: 964px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1140px;
+	}
+}
+
+@media (min-width: $min-width) {
+	.container {
+		max-width: $min-width;
+	}
+}
+
+section {
+	@include adaptiv-padding-top(65, 33);
+	@include adaptiv-padding-bottom(70, 35);
+
+	&.bg-default {
+		background-color: $white;
+	}
+
+	&.bg-lightgray {
+		background-color: $gray-200;
+	}
+
+	&.bg-lightengray {
+		background-color: $lightengray;
+	}
+
+	&.bg-darken {
+		background-color: $dark-light;
+		color: $white;
+	}
+
+	&.bg-dark {
+		background-color: $dark;
+		color: $white;
+	}
+
+	&.bg-accent {
+		background-color: $accent;
+		color: $white;
+	}
+}
+.home {
+	section {
+		&:first-child {
+			@include adaptiv-padding-top(60, 33);
+		}
+	}
+}
+
+// @media (min-width: 540px) {
+// 	.home p#breadcrumbs {
+// 		display: none;
+// 	}
+// }
+
+.wrapper-full-width {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.group-btn {
+	margin-bottom: 0.75rem;
+
+	.input-btn-wrap:last-child,
+	.btn-wrap:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.input-btn-wrap,
+.btn-wrap {
+	margin-bottom: 2.125rem;
+}
+
+.input-btn-wrap .btn,
+.btn-wrap .btn {
+	cursor: pointer;
+	color: $white;
+	padding: 13.5px 19px;
+	width: 290px;
+	box-sizing: border-box;
+	font-size: 1.188rem;
+	font-weight: 600;
+	border-radius: 29px;
+}
+
+.input-btn-wrap .btn-link,
+.btn-wrap .btn-link {
+	cursor: pointer;
+	color: $white;
+	padding: 15px 0;
+	box-sizing: border-box;
+	font-size: 1.188rem;
+	font-weight: 600;
+	border-radius: 29px;
+}
+
+.input-btn-wrap .btn-primary,
+.btn-wrap .btn-primary {
+	background: linear-gradient(242.75deg, $accent-light 18.11%, $accent 78.8%);
+	border: 1px solid transparent;
+}
+
+.input-btn-wrap .btn-dark,
+.btn-wrap .btn-dark {
+	background: linear-gradient(242.75deg, #4b5d87 18.11%, #1f2c48 78.8%);
+	border: 1px solid transparent;
+}
+
+.clearfix::after {
+	display: block;
+	clear: both;
+	content: "";
+}
+
+/* Table */
+
+table {
+	width: 100%;
+}
+
+td {
+	border-top: 1px solid $gray-300;
+	padding: 8px 10px 8px 8px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+}
+
+th {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 8px 10px 8px 8px;
+	text-align: left;
+	text-transform: none;
+	background-color: #354058;
+	color: $gray-100;
+
+	strong {
+		font-weight: 400;
+	}
+}
+
+caption {
+	text-transform: uppercase;
+}
+
+dd {
+	margin: 0 0 20px;
+}
+
+/* Table Brief Indications */
+
+table {
+	&.brief-indications {
+		border: 1px solid $gray-300;
+
+		th {
+			border-right: 1px solid rgba($white, 0.15);
+			text-align: center;
+
+			&:last-cild {
+				border-right: none;
+			}
+		}
+
+		td {
+			border-right: 1px solid $gray-300;
+			text-align: right;
+			padding-right: 15px;
+
+			&:last-cild {
+				border-right: none;
+			}
+
+			&:first-child {
+				text-align: left;
+			}
+		}
+	}
+
+	&.simple-table-two-column {
+		border-collapse: collapse;
+		width: 100%;
+
+		th,
+		td {
+			line-height: 1;
+		}
+
+		th {
+			background-color: lighten($dark, 9%);
+			text-align: center;
+			text-transform: uppercase;
+			color: $gray-100;
+			font-weight: 400;
+			padding: 12px 0;
+			border: 1px solid rgba($white, 0.15);
+		}
+
+		td {
+			border: 1px solid $gray-300;
+			position: relative;
+			line-height: 1.54;
+		}
+
+		tr:nth-child(even) {
+			background-color: $gray-200;
+		}
+
+		td {
+			&.call-name-cell {
+				text-indent: 10px;
+				width: 74%;
+			}
+
+			&.quantity-indicator-cell {
+				padding-right: 9%;
+				text-align: right;
+				width: 26%;
+			}
+		}
+	}
+}
+
+@media (max-width: 1199px) {
+	table.brief-indications {
+		border: 1px solid $gray-300;
+		line-height: 1.54;
+
+		th {
+			text-align: center;
+			padding: 12px 0;
+
+			&:first-child {
+				border-right: 1px solid rgba($white, 0.15);
+			}
+		}
+
+		td {
+			&:first-child {
+				border-right: 1px solid $gray-300;
+				padding: 7.5px 7.5px 7.5px 12px;
+			}
+
+			&:last-child {
+				padding: 7.5px 0;
+				text-align: center;
+			}
+		}
+
+		tr:nth-child(even) {
+			background-color: $gray-200;
+		}
+	}
+}
+
+/* --- Blockquote format --- */
+/* customer choice */
+/* Tables Two Column */
+
+@media (max-width: 1199px) {
+	table.simple-table-two-column td.quantity-indicator-cell {
+		padding-right: 8%;
+	}
+}
+
+@media (max-width: 991px) {
+	table.simple-table-two-column td.quantity-indicator-cell {
+		padding-right: 7%;
+	}
+}
+
+@media (max-width: 767px) {
+	table.simple-table-two-column {
+		font-weight: 400;
+
+		td.quantity-indicator-cell {
+			padding-right: 0;
+			text-align: center;
+		}
+	}
+}
+
+blockquote {
+	margin: 0;
+	background: #fafafa;
+	border: 1px solid #f0f0f0;
+	padding: 40px;
+	color: #3f484d;
+	position: relative;
+	font-family: "Noto Sans", sans-serif;
+	text-align: center;
+	border-left: 0;
+	line-height: 1.4;
+
+	&:before,
+	&:after {
+		font-size: 45px;
+		color: #f99865;
+		position: absolute;
+		height: 2px;
+		left: 40px;
+		right: 40px;
+		line-height: 0.5;
+		background: linear-gradient(to right, #fccdb4 45%, transparent 45%, transparent),
+			linear-gradient(to right, transparent, transparent 55%, #fccdb4 55%);
+		font-family: serif;
+	}
+
+	&:before {
+		content: "“";
+		top: 30px;
+	}
+
+	&:after {
+		content: "”";
+		bottom: 30px;
+	}
+
+	p {
+		font-size: 20px;
+		margin-bottom: 0;
+
+		&:first-child {
+			margin-top: 0.75em;
+		}
+
+		&:last-child {
+			margin-bottom: 0.75em;
+		}
+	}
+
+	footer {
+		position: relative;
+		padding-top: 20px;
+		padding-bottom: 20px;
+
+		&::before {
+			content: "";
+		}
+	}
+
+	cite {
+		font-style: normal;
+		position: relative;
+
+		&::before {
+			content: "";
+			position: absolute;
+			background-repeat: no-repeat;
+			width: 60px;
+			height: 60px;
+			background-size: cover;
+			border-radius: 50%;
+			left: -72px;
+			top: -20px;
+		}
+	}
+
+	.author-blockquote {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		img {
+			display: block;
+			max-width: 60px;
+			max-height: 60px;
+			border-radius: 50%;
+			margin-right: 12px;
+		}
+
+		p.name-author {
+			display: block;
+			font-size: 16px;
+			color: #777;
+
+			&::before {
+				content: "";
+			}
+		}
+	}
+}
+
+@media (max-width: 426px) {
+	blockquote {
+		padding: 30px;
+		background: #f5f5f5;
+
+		&:before,
+		&:after {
+			background: linear-gradient(to right, #f99865 42%, transparent 42%, transparent),
+				linear-gradient(to right, transparent, transparent 58%, #f99865 58%);
+		}
+
+		p {
+			font-size: 18px;
+
+			&:first-child {
+				margin-top: 1em;
+			}
+		}
+
+		footer {
+			margin-bottom: 1em !important;
+		}
+	}
+}
+
+.text-indent {
+	text-indent: 7px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.separator {
+	background-color: $gray-300;
+	height: 1px;
+}

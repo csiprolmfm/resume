@@ -1,0 +1,38 @@
+// font-weight helper:
+
+// 100 Thin;
+// 200 Extra Light or Ultra Light;
+// 300 Light or Book or Demi;
+// 400 Regular or Normal;
+// 500 Medium;
+// 600 Semibold or Demibold;
+// 700 Bold;
+// 800 Black or Extra Bold or Heavy;
+// 900 Extra Black or Fat or Ultra Black;
+
+@mixin font-face($font-family, $file-path, $weight: normal, $style: normal, $asset-pipeline: false ) {
+	@font-face {
+		font-family: $font-family;
+		font-weight: $weight;
+		font-style: $style;
+		font-display: swap;
+		
+		src: url('#{$file-path}.woff') format('woff'), url('#{$file-path}.woff2') format('woff2');
+	}
+}
+
+@include font-face("PTSans", "../fonts/PTSans/PTSans-Regular");
+@include font-face("PTSans", "../fonts/PTSans/PTSans-Italic", 400, italic);
+@include font-face("PTSans", "../fonts/PTSans/PTSans-Bold", 700);
+
+@include font-face("Roboto", "../fonts/Roboto/roboto-v20-cyrillic_cyrillic-ext_latin-regular");
+@include font-face("Roboto", "../fonts/Roboto/roboto-v20-cyrillic_cyrillic-ext_latin-900", 900);
+@include font-face("Roboto", "../fonts/Roboto/roboto-v20-cyrillic_cyrillic-ext_latin-700", 700);
+@include font-face("Roboto", "../fonts/Roboto/roboto-v20-cyrillic_cyrillic-ext_latin-500", 500);
+@include font-face("Roboto", "../fonts/Roboto/roboto-v20-cyrillic_cyrillic-ext_latin-300", 300);
+@include font-face("Roboto", "../fonts/Roboto/roboto-v20-cyrillic_cyrillic-ext_latin-italic", 400, italic);
+
+@include font-face("SourceCodePro", "../fonts/SourceCodePro/SourceCodePro-Regular");
+
+
+
