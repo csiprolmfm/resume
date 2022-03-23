@@ -403,7 +403,7 @@ h2.typography-head { text-align: left; }
 /* Links */
 .links-wrap { margin-bottom: 1.25rem; background-color: #5e2129; display: grid; grid-template-columns: 1fr 1fr 1fr; max-width: -webkit-max-content; max-width: -moz-max-content; max-width: max-content; }
 .links-wrap .link { padding: 1rem; }
-.links-wrap .link a { text-decoration: none; }
+.links-wrap .link a { text-decoration: none; position: relative; }
 .links-wrap .link a:hover, .links-wrap .link a:focus, .links-wrap .link a:active { text-decoration: none; }
 
 @media (min-width: 768px) { .links-wrap { grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; } }
